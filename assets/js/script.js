@@ -1,3 +1,15 @@
+
+window.onload = function(){
+    document.querySelector(".menu_mobile").addEventListener("click", function(){
+        if(document.querySelector(".menu nav ul").style.display == 'flex'){
+            document.querySelector(".menu nav ul").style.display = 'none';
+        } else{
+            document.querySelector(".menu nav ul").style.display = 'flex';
+        }
+    } );
+};
+
+
 const imgs = document.querySelectorAll('.js-img');
 //console.log(imgs);
 const desc = document.querySelectorAll('.js-desc');

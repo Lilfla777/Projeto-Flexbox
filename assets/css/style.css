@@ -1,5 +1,5 @@
 * {
-    font-family: arial;
+    font-family: sans-serif;
 }
 
 body {
@@ -49,6 +49,7 @@ nav a {
     text-transform: uppercase;
     color: #727272;
     font-family: Arial, Helvetica, sans-serif;
+    border-radius: 4px;
 }
 
 nav .active a,
@@ -92,14 +93,17 @@ nav a:hover {
 
 .banner1 {
     background-color: #39aae1;
+    border-radius: 4px;
 }
 
 .banner2 {
     background-color: #0079c7;
+    border-radius: 4px;
 }
 
 .banner3 {
     background-color: #2b4c99;
+    border-radius: 4px;
 }
 
 .text h1 {
@@ -136,6 +140,7 @@ nav a:hover {
     text-decoration: none;
     display: block;
     border: 1px solid #fff;
+    border-radius: 4px;
     padding: 5px;
     color: #fff;
     font-size: 13px;
@@ -363,6 +368,8 @@ footer {
     font-size: 12px;
     margin-top: 30px;
     display: flex;
+    justify-content:space-between ;
+    
 
 
 }
@@ -432,6 +439,7 @@ footer {
 .footer_logo {
     display: flex;
     height: 30px;
+    
 
 
 }
