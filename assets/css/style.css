@@ -202,6 +202,10 @@ nav a:hover {
     background-color: #39aae1;
     margin: 10px;
     display: flex;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    
 
 }
 
@@ -562,8 +566,14 @@ footer {
 
     .widget {
         margin-top: 90px;
-        margin-left: 20px;
+        padding-left: 10px;
+        padding-right: 10px;
 
+    }
+    .widget a{
+        text-decoration: none;
+        color: #000;
+        font-weight: bold;
     }
 
     .widget_title {
@@ -572,11 +582,13 @@ footer {
 
     .footer_area {
         flex-direction: column;
+        padding: 0 20px;
 
     }
 
     .footer_copy {
         flex-wrap: wrap;
+   justify-content: center;
 
     }
 
@@ -587,16 +599,7 @@ footer {
     }
 
 }
-.js-desc{
-    display: none;
-    
-}
-.js-desc.ativo{
-    display: block !important;
-}
-.js-img{
-    cursor: pointer;
-}
+
 
 .js-scroll{
     opacity: 0;
