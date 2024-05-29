@@ -305,7 +305,7 @@ footer {
 }
 
 .footer_menu {
-
+flex-wrap: wrap;
     display: flex;
     flex: 1;
 }
@@ -504,7 +504,7 @@ footer {
         left: 0;
         width: 100%;
         background-color: #fff;
-        z-index: 11111;
+        z-index: 11111 !important;
     }
 
     .text {
@@ -552,8 +552,9 @@ footer {
     }
 
     .footer_menu {
-        display: flex;
+        display: none;
         flex-direction: column;
+        flex-wrap: wrap;
 
     }
 
