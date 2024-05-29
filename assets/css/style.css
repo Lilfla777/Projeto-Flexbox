@@ -198,13 +198,21 @@ nav a:hover {
     height: 140px;
     background-color: #39aae1;
     margin: 10px;
+    
     display: flex;
     background-image: url(../images/logo.png);
     background-repeat: no-repeat;
-    background-position: right;
+    background-size: cover;
+    box-sizing: border-box;
     
 
 }
+.widget_body {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
 
 .widget_body2_text {
     font-size: 13px;
