@@ -187,9 +187,6 @@ nav a:hover {
     height: 2px;
     background-color: #36a9e1;
     margin-top: 10px;
-}
-
-.widget_body {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
